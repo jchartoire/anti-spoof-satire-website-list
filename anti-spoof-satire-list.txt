@@ -1,8 +1,320 @@
 [Adblock Plus 2.0]
-! Title: Anti spoof/satire List
+! Title: Anti spoof/hoax/satire List
 ! Updated: 20201112
 !
 ##a[href*="mediamass.net"]
 mediamass.net#@#a[href^="mediamass.net"]
 google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'mediamass.net')]])
 ||mediamass.net^$third-party,popup
+##a[href*="huffingtonpost.fr"]
+huffingtonpost.fr#@#a[href^="huffingtonpost.fr"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'huffingtonpost.fr')]])
+||huffingtonpost.fr^$third-party,popup
+##a[href*="lecanardenchaine.fr"]
+lecanardenchaine.fr#@#a[href^="lecanardenchaine.fr"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'lecanardenchaine.fr')]])
+||lecanardenchaine.fr^$third-party,popup
+##a[href*="Thedcgazette.com"]
+Thedcgazette.com#@#a[href^="Thedcgazette.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Thedcgazette.com')]])
+||Thedcgazette.com^$third-party,popup
+##a[href*="70news.wordpress.com"]
+70news.wordpress.com#@#a[href^="70news.wordpress.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), '70news.wordpress.com')]])
+||70news.wordpress.com^$third-party,popup
+##a[href*="Abcnews.com.co"]
+Abcnews.com.co#@#a[href^="Abcnews.com.co"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Abcnews.com.co')]])
+||Abcnews.com.co^$third-party,popup
+##a[href*="Infowars.com"]
+Infowars.com#@#a[href^="Infowars.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Infowars.com')]])
+||Infowars.com^$third-party,popup
+##a[href*="Yournewswire.com"]
+Yournewswire.com#@#a[href^="Yournewswire.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Yournewswire.com')]])
+||Yournewswire.com^$third-party,popup
+##a[href*="Rilenews.com"]
+Rilenews.com#@#a[href^="Rilenews.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Rilenews.com')]])
+||Rilenews.com^$third-party,popup
+##a[href*="Worldnewsreport.com"]
+Worldnewsreport.com#@#a[href^="Worldnewsreport.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Worldnewsreport.com')]])
+||Worldnewsreport.com^$third-party,popup
+##a[href*="Empirenews.net"]
+Empirenews.net#@#a[href^="Empirenews.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Empirenews.net')]])
+||Empirenews.net^$third-party,popup
+##a[href*="Politicops.com"]
+Politicops.com#@#a[href^="Politicops.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Politicops.com')]])
+||Politicops.com^$third-party,popup
+##a[href*="Huzlers.com"]
+Huzlers.com#@#a[href^="Huzlers.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Huzlers.com')]])
+||Huzlers.com^$third-party,popup
+##a[href*="Thebostontribune.com"]
+Thebostontribune.com#@#a[href^="Thebostontribune.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Thebostontribune.com')]])
+||Thebostontribune.com^$third-party,popup
+##a[href*="Christiantimes.com"]
+Christiantimes.com#@#a[href^="Christiantimes.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Christiantimes.com')]])
+||Christiantimes.com^$third-party,popup
+##a[href*="Now8news.com"]
+Now8news.com#@#a[href^="Now8news.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Now8news.com')]])
+||Now8news.com^$third-party,popup
+##a[href*="Empireherald.com"]
+Empireherald.com#@#a[href^="Empireherald.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Empireherald.com')]])
+||Empireherald.com^$third-party,popup
+##a[href*="Burrardstreetjournal.com"]
+Burrardstreetjournal.com#@#a[href^="Burrardstreetjournal.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Burrardstreetjournal.com')]])
+||Burrardstreetjournal.com^$third-party,popup
+##a[href*="React365.com"]
+React365.com#@#a[href^="React365.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'React365.com')]])
+||React365.com^$third-party,popup
+##a[href*="Theonion.com"]
+Theonion.com#@#a[href^="Theonion.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Theonion.com')]])
+||Theonion.com^$third-party,popup
+##a[href*="Civictribune.com"]
+Civictribune.com#@#a[href^="Civictribune.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Civictribune.com')]])
+||Civictribune.com^$third-party,popup
+##a[href*="Realnewsrightnow.com"]
+Realnewsrightnow.com#@#a[href^="Realnewsrightnow.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Realnewsrightnow.com')]])
+||Realnewsrightnow.com^$third-party,popup
+##a[href*="Nationalreport.net"]
+Nationalreport.net#@#a[href^="Nationalreport.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Nationalreport.net')]])
+||Nationalreport.net^$third-party,popup
+##a[href*="Ifyouonlynews.com"]
+Ifyouonlynews.com#@#a[href^="Ifyouonlynews.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'Ifyouonlynews.com')]])
+||Ifyouonlynews.com^$third-party,popup
+##a[href*="alhudood.net"]
+alhudood.net#@#a[href^="alhudood.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'alhudood.net')]])
+||alhudood.net^$third-party,popup
+##a[href*="babylonbee.com"]
+babylonbee.com#@#a[href^="babylonbee.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'babylonbee.com')]])
+||babylonbee.com^$third-party,popup
+##a[href*="bbspot.com"]
+bbspot.com#@#a[href^="bbspot.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'bbspot.com')]])
+||bbspot.com^$third-party,popup
+##a[href*="thebeaverton.com"]
+thebeaverton.com#@#a[href^="thebeaverton.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'thebeaverton.com')]])
+||thebeaverton.com^$third-party,popup
+##a[href*="betootaadvocate.com"]
+betootaadvocate.com#@#a[href^="betootaadvocate.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'betootaadvocate.com')]])
+||betootaadvocate.com^$third-party,popup
+##a[href*="burrardstreetjournal.com"]
+burrardstreetjournal.com#@#a[href^="burrardstreetjournal.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'burrardstreetjournal.com')]])
+||burrardstreetjournal.com^$third-party,popup
+##a[href*="elchiguirebipolar.net"]
+elchiguirebipolar.net#@#a[href^="elchiguirebipolar.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'elchiguirebipolar.net')]])
+||elchiguirebipolar.net^$third-party,popup
+##a[href*="thecivilian.co.nz"]
+thecivilian.co.nz#@#a[href^="thecivilian.co.nz"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'thecivilian.co.nz')]])
+||thecivilian.co.nz^$third-party,popup
+##a[href*="clickhole.com"]
+clickhole.com#@#a[href^="clickhole.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'clickhole.com')]])
+||clickhole.com^$third-party,popup
+##a[href*="cracked.com"]
+cracked.com#@#a[href^="cracked.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'cracked.com')]])
+||cracked.com^$third-party,popup
+##a[href*="christwire.org"]
+christwire.org#@#a[href^="christwire.org"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'christwire.org')]])
+||christwire.org^$third-party,popup
+##a[href*="dailybonnet.com"]
+dailybonnet.com#@#a[href^="dailybonnet.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'dailybonnet.com')]])
+||dailybonnet.com^$third-party,popup
+##a[href*="thedailymash.co.uk"]
+thedailymash.co.uk#@#a[href^="thedailymash.co.uk"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'thedailymash.co.uk')]])
+||thedailymash.co.uk^$third-party,popup
+##a[href*="dailysquib.co.uk"]
+dailysquib.co.uk#@#a[href^="dailysquib.co.uk"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'dailysquib.co.uk')]])
+||dailysquib.co.uk^$third-party,popup
+##a[href*="thedailywtf.com"]
+thedailywtf.com#@#a[href^="thedailywtf.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'thedailywtf.com')]])
+||thedailywtf.com^$third-party,popup
+##a[href*="thedailyer.com"]
+thedailyer.com#@#a[href^="thedailyer.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'thedailyer.com')]])
+||thedailyer.com^$third-party,popup
+##a[href*="speld.nl"]
+speld.nl#@#a[href^="speld.nl"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'speld.nl')]])
+||speld.nl^$third-party,popup
+##a[href*="der-postillon.com"]
+der-postillon.com#@#a[href^="der-postillon.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'der-postillon.com')]])
+||der-postillon.com^$third-party,popup
+##a[href*="duffelblog.com"]
+duffelblog.com#@#a[href^="duffelblog.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'duffelblog.com')]])
+||duffelblog.com^$third-party,popup
+##a[href*="elmundotoday.com"]
+elmundotoday.com#@#a[href^="elmundotoday.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'elmundotoday.com')]])
+||elmundotoday.com^$third-party,popup
+##a[href*="firstpost.com"]
+firstpost.com#@#a[href^="firstpost.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'firstpost.com')]])
+||firstpost.com^$third-party,popup
+##a[href*="framleyexaminer.com"]
+framleyexaminer.com#@#a[href^="framleyexaminer.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'framleyexaminer.com')]])
+||framleyexaminer.com^$third-party,popup
+##a[href*="freewoodpost.net"]
+freewoodpost.net#@#a[href^="freewoodpost.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'freewoodpost.net')]])
+||freewoodpost.net^$third-party,popup
+##a[href*="thehardtimes.net"]
+thehardtimes.net#@#a[href^="thehardtimes.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'thehardtimes.net')]])
+||thehardtimes.net^$third-party,popup
+##a[href*="huzlers.com"]
+huzlers.com#@#a[href^="huzlers.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'huzlers.com')]])
+||huzlers.com^$third-party,popup
+##a[href*="islamicanews.com"]
+islamicanews.com#@#a[href^="islamicanews.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'islamicanews.com')]])
+||islamicanews.com^$third-party,popup
+##a[href*="journaldemourreal.com"]
+journaldemourreal.com#@#a[href^="journaldemourreal.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'journaldemourreal.com')]])
+||journaldemourreal.com^$third-party,popup
+##a[href*="kyoko-np.net"]
+kyoko-np.net#@#a[href^="kyoko-np.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'kyoko-np.net')]])
+||kyoko-np.net^$third-party,popup
+##a[href*="landoverbaptist.org"]
+landoverbaptist.org#@#a[href^="landoverbaptist.org"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'landoverbaptist.org')]])
+||landoverbaptist.org^$third-party,popup
+##a[href*="legorafi.fr"]
+legorafi.fr#@#a[href^="legorafi.fr"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'legorafi.fr')]])
+||legorafi.fr^$third-party,popup
+##a[href*="thelemonpress.co.uk"]
+thelemonpress.co.uk#@#a[href^="thelemonpress.co.uk"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'thelemonpress.co.uk')]])
+||thelemonpress.co.uk^$third-party,popup
+##a[href*="lercio.it"]
+lercio.it#@#a[href^="lercio.it"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'lercio.it')]])
+||lercio.it^$third-party,popup
+##a[href*="nationalreport.net"]
+nationalreport.net#@#a[href^="nationalreport.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'nationalreport.net')]])
+||nationalreport.net^$third-party,popup
+##a[href*="newsbiscuit.com"]
+newsbiscuit.com#@#a[href^="newsbiscuit.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'newsbiscuit.com')]])
+||newsbiscuit.com^$third-party,popup
+##a[href*="newsthump.com"]
+newsthump.com#@#a[href^="newsthump.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'newsthump.com')]])
+||newsthump.com^$third-party,popup
+##a[href*="njuz.net"]
+njuz.net#@#a[href^="njuz.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'njuz.net')]])
+||njuz.net^$third-party,popup
+##a[href*="nordpresse.be"]
+nordpresse.be#@#a[href^="nordpresse.be"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'nordpresse.be')]])
+||nordpresse.be^$third-party,popup
+##a[href*="theonion.com"]
+theonion.com#@#a[href^="theonion.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'theonion.com')]])
+||theonion.com^$third-party,popup
+##a[href*="theoxymoron.co.uk"]
+theoxymoron.co.uk#@#a[href^="theoxymoron.co.uk"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'theoxymoron.co.uk')]])
+||theoxymoron.co.uk^$third-party,popup
+##a[href*="thepoke.co.uk"]
+thepoke.co.uk#@#a[href^="thepoke.co.uk"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'thepoke.co.uk')]])
+||thepoke.co.uk^$third-party,popup
+##a[href*="private-eye.co.uk"]
+private-eye.co.uk#@#a[href^="private-eye.co.uk"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'private-eye.co.uk')]])
+||private-eye.co.uk^$third-party,popup
+##a[href*="reductress.com"]
+reductress.com#@#a[href^="reductress.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'reductress.com')]])
+||reductress.com^$third-party,popup
+##a[href*="rochdaleherald.co.uk"]
+rochdaleherald.co.uk#@#a[href^="rochdaleherald.co.uk"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'rochdaleherald.co.uk')]])
+||rochdaleherald.co.uk^$third-party,popup
+##a[href*="satirewire.com"]
+satirewire.com#@#a[href^="satirewire.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'satirewire.com')]])
+||satirewire.com^$third-party,popup
+##a[href*="scrappleface.com"]
+scrappleface.com#@#a[href^="scrappleface.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'scrappleface.com')]])
+||scrappleface.com^$third-party,popup
+##a[href*="sensacionalista.com.br"]
+sensacionalista.com.br#@#a[href^="sensacionalista.com.br"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'sensacionalista.com.br')]])
+||sensacionalista.com.br^$third-party,popup
+##a[href*="southendnewsnetwork.net"]
+southendnewsnetwork.net#@#a[href^="southendnewsnetwork.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'southendnewsnetwork.net')]])
+||southendnewsnetwork.net^$third-party,popup
+##a[href*="wibw.com"]
+wibw.com#@#a[href^="wibw.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'wibw.com')]])
+||wibw.com^$third-party,popup
+##a[href*="truenorthtimes.ca"]
+truenorthtimes.ca#@#a[href^="truenorthtimes.ca"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'truenorthtimes.ca')]])
+||truenorthtimes.ca^$third-party,popup
+##a[href*="theunrealtimes.com"]
+theunrealtimes.com#@#a[href^="theunrealtimes.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'theunrealtimes.com')]])
+||theunrealtimes.com^$third-party,popup
+##a[href*="walkingeaglenews.com"]
+walkingeaglenews.com#@#a[href^="walkingeaglenews.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'walkingeaglenews.com')]])
+||walkingeaglenews.com^$third-party,popup
+##a[href*="waterfordwhispersnews.com"]
+waterfordwhispersnews.com#@#a[href^="waterfordwhispersnews.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'waterfordwhispersnews.com')]])
+||waterfordwhispersnews.com^$third-party,popup
+##a[href*="weeklyworldnews.com"]
+weeklyworldnews.com#@#a[href^="weeklyworldnews.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'weeklyworldnews.com')]])
+||weeklyworldnews.com^$third-party,popup
+##a[href*="hoax-net.be"]
+hoax-net.be#@#a[href^="hoax-net.be"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'hoax-net.be')]])
+||hoax-net.be^$third-party,popup
+##a[href*="zaytung.com"]
+zaytung.com#@#a[href^="zaytung.com"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'zaytung.com')]])
+||zaytung.com^$third-party,popup
