@@ -1,3 +1,7 @@
+[Adblock Plus 2.0]
+! Title: Anti spoof/satire List
+! Updated: 20201112
+!
 ##a[href*="mediamass.net"]
 mediamass.net#@#a[href^="mediamass.net"]
 google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'mediamass.net')]])
