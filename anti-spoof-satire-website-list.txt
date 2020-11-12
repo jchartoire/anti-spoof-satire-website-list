@@ -1,0 +1,4 @@
+##a[href*="mediamass.net"]
+mediamass.net#@#a[href^="mediamass.net"]
+google.*##:xpath(//div[@class='g' and descendant::cite[contains(text(), 'mediamass.net')]])
+||mediamass.net^$third-party,popup
